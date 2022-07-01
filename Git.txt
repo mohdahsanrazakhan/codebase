@@ -1,0 +1,19 @@
+git init // To initialize repository
+ls -a // To see the fills
+git status // Shows status
+git add file_name // To add in staging area
+git add . // To add all files in staging area
+git commit -m "initial commit" // To commit [-m mean message]
+git log // See all commit info
+git checkout <commit hash code/branch name> // Navigate between the branches
+git branch <branch name> // To create new branch
+git checkout -b <branch name> // To create new branch and navigate to that branch. It is another way to create branch
+git branch // To see all your branches
+git merge <branch name> // To merge branches
+touch .gitignore // To create .gitignore file. Git cannot track this file and other files which is inside it.
+// Push an existing repository
+git remote add origin https://github.com/username/reponame.git
+git remote -v // optional 
+git branch -M master
+git push -u origin master
+
