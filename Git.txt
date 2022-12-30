@@ -1,4 +1,4 @@
-git init // To initialize repository
+ git init // To initialize repository
 ls -a // To see the fills
 git status // Shows status
 git add file_name // To add in staging area
@@ -16,4 +16,6 @@ git remote add origin https://github.com/username/reponame.git
 git remote -v // optional 
 git branch -M master
 git push -u origin master
+
+Undo: git rm --cached -r . 
 
